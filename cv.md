@@ -1,7 +1,7 @@
 # Butolina Lyanna
 
-tel.                                       +7(961)758-51-99
-e-mail                                    lyana-m@yandex.ru
+tel.: +7(961)758-51-00\
+e-mail: lyana-m@yandex.ru
 
 
 Beginning front end developer who is passionate exploring new technologies, self-improvement and leveraging skills. Excellent team player with exceptional communication skills. As a highly motivated individual want to create high quality products.
