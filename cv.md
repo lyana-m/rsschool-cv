@@ -3,12 +3,13 @@
 tel.                                       +7(961)758-51-99
 e-mail                                    lyana-m@yandex.ru
 
-------------
+
+Beginning front end developer who is passionate exploring new technologies, self-improvement and leveraging skills. Excellent team player with exceptional communication skills. As a highly motivated individual want to create high quality products.
+
 
 ## Education
 
-*2009-2014* **
-Perm State University**, Faculty Of Economics, Global Economy
+*2009-2014* **Perm State University**, Faculty Of Economics, Global Economy
 
 ## Experience
 No relevant experience yet
@@ -33,3 +34,6 @@ function findShort(s) {
   return s.split(' ').map(item => item.length).sort((a, b) => a - b)[0];
 }
 ```
+## Languages
+- Russian (native)
+- English (intermediate)
