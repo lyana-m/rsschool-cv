@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+body {
+  background-color: #85929e;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;    
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 300;   
+}
+
+h3 {
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+  border-bottom: #b8b8b8 solid 1px;
+  font-size: 16px;
+  font-weight: 400;    
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.main-container {
+  display: flex;
+  width: 1000px;
+  margin: 50px auto;  
+}
+
+aside {
+  width: 33%;
+  padding: 50px 60px;
+  color: #f8f9f9;
+  background-color: #34495E;
+}
+
+.photo {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  background-image: url(/assets/IMG_8253.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 230px;
+}
+
+.info {
+  margin-left: 40px;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+
+li {
+  margin-top: 5px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+li p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contacts {
+  margin-top: 15px;    
+  font-weight: 700;
+}
+
+main {
+  padding: 50px 60px;
+  width: 67%;
+  background-color: #F2F3F4;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.column-container {
+  display: flex;
+}
+
+.detail-info {
+  margin-left: 50px;
+}
+
+pre {
+  margin-bottom: 15px;
+  padding: 15px 0 15px 20px;    
+  background-color: #F8F9F9;
+  border-radius: 2px;
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+}
+
+
