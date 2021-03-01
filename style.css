@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 24px;
   font-weight: 300;   
 }
@@ -57,7 +57,7 @@ aside {
   height: 170px;
   margin: 0 auto 40px;
   border-radius: 50%;
-  background-image: url("assets/IMG_8253.JPG");
+  background-image: url('/assets/IMG_8253.JPG');
   background-repeat: no-repeat;
   background-size: auto 230px;
 }
@@ -92,6 +92,12 @@ main {
   background-color: #F2F3F4;
 }
 
+.description {
+  margin-bottom: 50px;
+  padding-left: 20px;
+  border-left: #b8b8b8 solid 10px;
+}
+
 section {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -112,7 +118,7 @@ pre {
   border-radius: 2px;
 }
 
-code {
+code p {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12px;
 }

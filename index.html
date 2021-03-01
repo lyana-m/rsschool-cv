@@ -43,6 +43,7 @@
       <main>
         <h1>Butolina Lyanna</h1>
         <h2>Junior front end developer</h2>
+        <p class="description">Beginning front end developer who is passionate exploring new technologies, self-improvement and leveraging skills. Excellent team player with exceptional communication skills. As a highly motivated individual want to create high quality products.</p>
         <h3>Education</h3>
           <section class="column-container">
             <p>2009-2014</p>
@@ -65,12 +66,23 @@
           </section>            
           <section>
             <h3>Code examples</h3>
-            <pre><code>function squareDigits(num) {
-    return +(String(num).split('').map(item => item ** 2).join(''));
-  }</code></pre>
-            <pre><code>function findShort(s) {
-    return s.split(' ').map(item => item.length).sort((a, b) => a - b)[0];
-  }</code></pre>
+            <pre><code><p>
+function squareDigits(num) {
+  return +(String(num).split('').map(item => item ** 2).join(''));
+}</p></code></pre>
+            <pre><code><p>
+function createDreamTeam(members) {
+  if (Array.isArray(members)) {
+  return members.reduce((acc, item) => {
+    if (typeof (item) === 'string') {
+    return acc + item.trim().toLowerCase()[0];
+    } else {
+    return acc;
+    }
+    }, '')
+    split('').sort().join('').toUpperCase();
+  } return false;
+}</p></code></pre>
           </section>
       </main>
     </div>    
