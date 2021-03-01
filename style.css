@@ -46,6 +46,7 @@ h4 {
 }
 
 aside {
+  position: relative;
   width: 33%;
   padding: 50px 60px;
   color: #f8f9f9;
@@ -86,6 +87,26 @@ li p {
   font-weight: 700;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #202e3b;
+}
+ footer div {
+   display: flex;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ a img {
+   height: 70%;
+ }
+
 main {
   padding: 50px 60px;
   width: 67%;
@@ -118,7 +139,7 @@ pre {
   border-radius: 2px;
 }
 
-code p {
+code {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12px;
 }
