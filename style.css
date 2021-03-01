@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 24px;
   font-weight: 300;   
 }
@@ -46,6 +46,7 @@ h4 {
 }
 
 aside {
+  position: relative;
   width: 33%;
   padding: 50px 60px;
   color: #f8f9f9;
@@ -57,7 +58,7 @@ aside {
   height: 170px;
   margin: 0 auto 40px;
   border-radius: 50%;
-  background-image: url(/assets/IMG_8253.jpg);
+  background-image: url('assets/IMG_8253.JPG');
   background-repeat: no-repeat;
   background-size: auto 230px;
 }
@@ -86,10 +87,36 @@ li p {
   font-weight: 700;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #202e3b;
+}
+ footer div {
+   display: flex;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ a img {
+   height: 70%;
+ }
+
 main {
   padding: 50px 60px;
   width: 67%;
   background-color: #F2F3F4;
+}
+
+.description {
+  margin-bottom: 50px;
+  padding-left: 20px;
+  border-left: #b8b8b8 solid 10px;
 }
 
 section {
