@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+body {
+  background-color: #85929e;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3 {
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+  border-bottom: #b8b8b8 solid 1px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #E38C00;
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.main-container {
+  display: flex;
+  max-width: 1000px;
+  width: calc(100vw - 120px);
+  margin: 50px auto;
+}
+
+aside {
+  position: relative;
+  width: 33%;
+  padding: 50px 60px;
+  color: #f8f9f9;
+  background-color: #34495E;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 40px;
+}
+
+.photo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.info {
+  margin-left: 40px;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+
+li {
+  margin-top: 5px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+li p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contacts {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #202e3b;
+}
+
+footer div {
+  display: flex;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a img {
+  height: 70%;
+}
+
+main {
+  padding: 50px 60px;
+  width: 67%;
+  background-color: #F2F3F4;
+}
+
+.description {
+  margin-bottom: 50px;
+  padding-left: 20px;
+  border-left: #b8b8b8 solid 10px;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.detail-info {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.detail-info:last-child {
+  margin-bottom: 0;
+}
+
+.detail-info__date {
+  width: 25%;
+}
+
+.detail-info__description {
+  width: 75%;
+}
+
+.detail-info__description h4 {
+  font-weight: 500;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 20% 30% 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.project__name a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project__name a:hover {
+  color: #00946F;
+}
